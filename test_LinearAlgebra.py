@@ -38,10 +38,6 @@ def test_dot_product():
     assert vec_r == 78
 
 
-def test_matrix_inverse():
-    pass
-
-
 def test_matrix_transpose():
     mat_1 = Matrix(Vector(5, 4), Vector(7, 6))
     assert Matrix(Vector(5, 7), Vector(4, 6)) == matrix_transpose(mat_1)
